@@ -1,0 +1,80 @@
+
+*[id*='color-picker']{ 
+    width: min-content;
+    margin: auto;
+}
+
+
+
+.input-boxes{ 
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.hex-and-square-inputs{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.input-boxes > div, .hex-input{ 
+    display: flex;  
+    align-items: center;
+}
+
+.input-boxes, .hex-and-square-inputs{
+    row-gap: 14px;
+}
+
+*[id*='picked-color']{ 
+    border: solid 1px #0000001c;
+}
+
+*[id*='hex-intput']{ 
+    display: inline-block; 
+}
+
+*[id*='hex-input-txt-box']{ 
+   width: 62%;
+   height: 1.4em;
+}
+
+*[id*='color-inputs-container']{
+    display: grid;
+    grid-template-columns: 31% 31% 38%;
+}
+
+.number-input {
+    width: 3rem; 
+}
+.color-picker-input-label {
+    letter-spacing: 0.2rem;
+    width: 2rem;
+}
+.color-picker-input-label-hex{
+    width: 38%;
+}
+.color-picker-input{
+    border: solid 1px #0000001c;
+    padding: 0.3rem;
+    letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 340px) {
+    .color-picker-input-label {
+        letter-spacing: 0rem;
+        width: 1rem;
+    }
+    .color-picker-input-label-hex{
+        font-size: 12px;
+    }
+    .color-picker-input-label{
+        font-size: 14px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) and (min-width: 341px) {
+    .color-picker-input-label-hex{
+        font-size: 15px;
+    }
+  }
+  

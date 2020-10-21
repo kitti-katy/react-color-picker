@@ -1,6 +1,7 @@
 import React from 'react'
-import styles from './styles.module.css'
+import styles from './styles.css'
+import ColorPicker_ from './ColorPicker_'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
+export const ColorPicker = ({ baseColor, onChange, id, className }) => {
+  return <ColorPicker_ baseColor = {baseColor} onChange = {onChange} id={id} className={className}/>
 }

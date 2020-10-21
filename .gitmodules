@@ -1,0 +1,4 @@
+[submodule "color"]
+	path = color
+	url = git@github.com:kitti-katy/color.git
+	branch = lib

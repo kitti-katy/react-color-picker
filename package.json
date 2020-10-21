@@ -23,6 +23,9 @@
     "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build"
   },
+  "dependencies": {
+    "cpg-color": "file:./color"
+  },
   "peerDependencies": {
     "react": "^16.0.0"
   },
