@@ -35,7 +35,6 @@
 
 *[id*='hex-input-txt-box']{ 
    width: 62%;
-   height: 1.4em;
 }
 
 *[id*='color-inputs-container']{
@@ -44,11 +43,11 @@
 }
 
 .number-input {
-    width: 3rem; 
+    width: 50px; 
 }
 .color-picker-input-label {
     letter-spacing: 0.2rem;
-    width: 2rem;
+    width: 25px;
 }
 .color-picker-input-label-hex{
     width: 38%;
