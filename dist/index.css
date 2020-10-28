@@ -1,0 +1,134 @@
+/* add css module styles here (optional) */
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+*[id*='color-picker']{ 
+    width: -webkit-min-content; 
+    width: -moz-min-content; 
+    width: min-content;
+    margin: auto;
+}
+
+
+
+._8cgVJ{ 
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+._5cpV-{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+._8cgVJ > div, ._24MSC{ 
+    display: flex;  
+    align-items: center;
+}
+
+._8cgVJ, ._5cpV-{
+    row-gap: 14px;
+}
+
+*[id*='picked-color']{ 
+    border: solid 1px #0000001c;
+}
+
+*[id*='hex-intput']{ 
+    display: inline-block; 
+}
+
+*[id*='hex-input-txt-box']{ 
+   width: 62%;
+}
+
+*[id*='color-inputs-container']{
+    display: grid;
+    grid-template-columns: 31% 31% 38%;
+}
+
+._5iG-P {
+    width: 50px; 
+}
+._3vnK1 {
+    letter-spacing: 0.2rem;
+    width: 25px;
+}
+._1DDfA{
+    width: 38%;
+}
+._1U93g{
+    border: solid 1px #0000001c;
+    padding: 0.3rem;
+    letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 340px) {
+    ._3vnK1 {
+        letter-spacing: 0rem;
+        width: 1rem;
+    }
+    ._1DDfA{
+        font-size: 12px;
+    }
+    ._3vnK1{
+        font-size: 14px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) and (min-width: 341px) {
+    ._1DDfA{
+        font-size: 15px;
+    }
+  }
+  
+*[id*='canvases-container']{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+*[id*='saturationCircle']{
+    position: absolute;
+    display: inline; 
+    margin-left: -5.5px; 
+    width: 24px; 
+    height: 7px;
+    border: 1px solid #0000001c; 
+    border-radius: 3px;
+    pointer-events: none;
+}
+
+*[id*='pickerCircle']{
+    width: 16px;
+    height: 16px; 
+    border: 1px solid; 
+    border-radius: 15px;
+    position: absolute; 
+    z-index: 100;
+    pointer-events: none;
+}
+
+*[id*='main-canvas-color-picker']{
+    border: solid 1px #0000001c;
+}
+
+*[id*='saturation-canvas-color-picker']{ 
+    display: inline; 
+    margin-right: 7px; 
+    border: 1px solid #0000001c;
+    border-radius: 2%;
+}
+
+._2WITp{
+    width: 4rem;
+    text-align: center;
+}
